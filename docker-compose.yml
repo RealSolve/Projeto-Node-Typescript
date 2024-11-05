@@ -28,7 +28,7 @@ services:
 
   db:
     container_name: RealSolve_db
-    image: mysql:8.0.23
+    image: mysql:8.0.39
     platform: linux/x86_64
     restart: always
     ports:
